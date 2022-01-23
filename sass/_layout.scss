@@ -1,0 +1,40 @@
+.header{
+    background-color:var(--color-very-pale-cyan);
+    background-image:
+    url("../images/bg-hero-desktop.svg");
+    width:100%;
+    min-height:75rem;
+    background-repeat: no-repeat;
+    padding: 4.5rem 9rem;
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: $bp-large){
+        min-height: auto;
+    }
+    @media only screen and (max-width: $bp-medium){
+        padding: 4rem 5rem;
+    }
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding: 16rem 0 35rem 0;
+    position: relative;
+    @media only screen and (max-width: $bp-large){
+        padding: 10rem 0 30rem 0;
+    }
+}
+
+.footer{
+    background-color: var(--color-very-dark-cyan);
+    color: var(--color-white);
+    font-size: 1.4rem;
+    width:100%;
+    padding: 14rem 9rem 6rem 11rem;
+    display: flex;
+    justify-content: center;
+    transition: all .4s;
+}
+

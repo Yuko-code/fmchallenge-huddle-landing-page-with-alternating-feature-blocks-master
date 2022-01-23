@@ -1,0 +1,49 @@
+:root{
+    --color-very-pale-cyan:hsl(193, 100%, 96%);
+    --color-very-dark-cyan:hsl(192, 100%, 9%);
+    --color-grayish-blue:hsl(208, 11%, 55%);
+    --color-grayish-blue-active:hsl(208, 12%, 55%);
+    --color-white:#fff;
+    --color-accent-pink:hsl(322,100%,66%);
+    --color-accent-pink-active:hsl(322,100%,80%);
+
+
+    --font-open-sans:'Open Sans', sans-serif;
+    --font-poppins:'Poppins', sans-serif;
+}
+/////////////////////////////////////////////////////////////////
+//media queries
+$bp-large:89em;//1430/16=89%
+$bp-medium:73.75em;//1180/16
+$bp-small:69.37em;//1110/16=70%
+$bp-xsmall:50em;//800/16=50%
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+}
+
+
+html{
+    box-sizing:border-box;
+    font-size:62.5%;//1rem=10px, 10px/16px=62.5%
+}
+
+body{
+    font-family:var(--font-open-sans);
+    font-weight:400;
+    color:var(--color-very-dark-cyan);
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+}
