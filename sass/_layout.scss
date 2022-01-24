@@ -8,12 +8,14 @@
     padding: 4.5rem 9rem;
     display: flex;
     flex-direction: column;
-    @media only screen and (max-width: $bp-large){
-        min-height: auto;
+    @media only screen and (max-width: $bp-small){
+        background-image:
+    url("../images/bg-hero-mobile.svg");
+        text-align: center;
+        padding: 0;
+        min-height:auto;
     }
-    @media only screen and (max-width: $bp-medium){
-        padding: 4rem 5rem;
-    }
+
 }
 .main{
     display:flex;
@@ -22,9 +24,6 @@
     gap: 4rem;
     padding: 16rem 0 35rem 0;
     position: relative;
-    @media only screen and (max-width: $bp-large){
-        padding: 10rem 0 30rem 0;
-    }
 }
 
 .footer{
@@ -36,5 +35,12 @@
     display: flex;
     justify-content: center;
     transition: all .4s;
+    @media only screen and (max-width: $bp-medium){
+        font-size: 1.8rem;
+    }
+    @media only screen and (max-width: $bp-small){
+        padding: 13rem 1.5rem 4rem 1.5rem;
+        font-size: 1.4rem;
+    }
 }
 

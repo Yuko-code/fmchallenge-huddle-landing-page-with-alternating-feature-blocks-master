@@ -14,10 +14,8 @@
 /////////////////////////////////////////////////////////////////
 //media queries
 $bp-large:89em;//1430/16=89%
-$bp-medium:73.75em;//1180/16
-$bp-small:69.37em;//1110/16=70%
-$bp-xsmall:50em;//800/16=50%
-
+$bp-medium:72.5em;//1160/16
+$bp-small:54.06em;//865/16=70%
 
 *{
     margin: 0;
@@ -34,6 +32,15 @@ $bp-xsmall:50em;//800/16=50%
 html{
     box-sizing:border-box;
     font-size:62.5%;//1rem=10px, 10px/16px=62.5%
+    @media only screen and (max-width: $bp-large){
+        font-size: 50%;//1rem=8px;
+    }
+    @media only screen and (max-width: $bp-medium){
+        font-size: 37.5%;//1rem=6px;
+    }
+    @media only screen and (max-width: $bp-small){
+        font-size: 62.5%;//1rem=10px;
+    }
 }
 
 body{
