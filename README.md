@@ -32,9 +32,9 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Useful resources
 
-- []()
-- []()
-- []()
+- [Resizing SVG in html?](https://stackoverflow.com/questions/3120739/resizing-svg-in-html)
+- [How to Use SVG Images in CSS and HTML – A Tutorial for Beginners](https://www.freecodecamp.org/news/use-svg-images-in-css-html/)
+- [Element: mouseout event](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event)
 
 ## Author
 - Yuko Taniguchi - [Portfolio](https://ytwebxdesign.com/)
