@@ -166,13 +166,8 @@ a {
     padding: 1.5rem 6rem;
     box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.1);
     transition: .2s; }
-    .btn-try:hover {
+    .btn-try:hover, .btn-try:active {
       opacity: .6; }
-    @media only screen and (max-width: 72.5em) {
-      .btn-try:hover {
-        opacity: 1; }
-      .btn-try:active {
-        opacity: .6; } }
     @media only screen and (max-width: 54.06em) {
       .btn-try {
         height: 2.4rem;
@@ -193,8 +188,8 @@ a {
     justify-content: center;
     align-items: center;
     width: 28rem; }
-    .btn-getstarted:hover {
-      background-color: var(--color-accent-pink-active); }
+    .btn-getstarted:hover, .btn-getstarted:active {
+      opacity: .7; }
     @media only screen and (max-width: 54.06em) {
       .btn-getstarted {
         font-size: 1.2rem;
@@ -352,7 +347,7 @@ a {
     @media only screen and (max-width: 54.06em) {
       .footer-nav__left, .footer-nav__right {
         gap: 2rem; } }
-  .footer-nav--item:hover {
+  .footer-nav--item:hover, .footer-nav--item:active {
     opacity: .7; }
 
 .footer-right {
@@ -394,7 +389,7 @@ a {
   border-radius: 50%;
   border: 1px solid var(--color-white);
   padding: .5em; }
-  .icon:hover {
+  .icon:hover, .icon:active {
     fill: var(--color-accent-pink);
     border: 1px solid var(--color-accent-pink); }
   @media only screen and (max-width: 72.5em) {
