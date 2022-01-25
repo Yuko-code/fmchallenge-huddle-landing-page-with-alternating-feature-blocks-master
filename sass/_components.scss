@@ -126,7 +126,7 @@
         justify-content: center;
         align-items:center;
         width: 28rem;
-        @media only screen and (max-width: $bp-large){
+        @media only screen and (min-width: $bp-large){
             &:hover{
                 opacity: .7;
             }
