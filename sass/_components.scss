@@ -95,6 +95,15 @@
         &:hover{
             opacity: .6;
         }
+        @media only screen and (max-width: $bp-medium){
+            &:hover{
+                opacity:1;
+            }
+            &:active{
+                opacity: .6;
+            }
+
+        }
         @media only screen and (max-width: $bp-small){
             height: 2.4rem;
             padding:1rem 2.3rem;
