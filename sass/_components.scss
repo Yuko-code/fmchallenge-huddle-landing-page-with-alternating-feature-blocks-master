@@ -128,12 +128,12 @@
         width: 28rem;
         @media only screen and (max-width: $bp-large){
             &:hover{
-                background-color: var(--color-accent-pink-active);
+                opacity: .7;
             }
         }
         @media only screen and (max-width: $bp-medium){
             &:active{
-                background-color: var(--color-accent-pink-active);
+                opacity:.7;
             }
         }
         @media only screen and (max-width: $bp-small){
