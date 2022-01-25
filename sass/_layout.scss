@@ -3,9 +3,9 @@
     background-image:
     url("../images/bg-hero-desktop.svg");
     width:100%;
-    min-height:75rem;
+    min-height:74rem;
     background-repeat: no-repeat;
-    padding: 4.5rem 9rem;
+    padding: 4.3rem 9rem 0rem 9rem;
     display: flex;
     flex-direction: column;
     @media only screen and (max-width: $bp-small){
@@ -31,7 +31,7 @@
     color: var(--color-white);
     font-size: 1.4rem;
     width:100%;
-    padding: 14rem 9rem 6rem 11rem;
+    padding: 15rem 9rem 6rem 11rem;
     display: flex;
     justify-content: center;
     transition: all .4s;

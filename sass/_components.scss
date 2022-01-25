@@ -110,13 +110,14 @@
     &-getstarted{
         background-color: var(--color-accent-pink);
         color:var(--color-white);
-        padding: 1.85rem 7rem;
+        padding: 1.85rem 0;
         border-radius: 2.8rem;
         box-shadow:  2px 3px 6px 1px  hsla(322,100%,66%, .2);
         transition: .4s;
         display: flex;
         justify-content: center;
         align-items:center;
+        width: 28rem;
         &:hover{
             background-color: var(--color-accent-pink-active);
         }
